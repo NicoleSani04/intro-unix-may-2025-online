@@ -46,3 +46,8 @@ cp s3.sh s3_copy.sh
 mv s3_copy.sh s3_copia.sh
 # Copia recursiva
 cp -r padre destino/
+# Comando para visualizar los dispositivos
+ls dev
+# Comando para visualizar los archivos de configuración para
+# los sistemas operativos
+ls /etc 
