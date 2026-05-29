@@ -15,3 +15,11 @@ exit
 chmod u=rwx,g=rwx,o=rwx mi_archivo
 # Comando para determinar cuáles serán los permisos por defecto cada vez que creas un archivo o una carpeta nueva
 umask
+# Comando para mostrar la información detallada y metadatos de un archivo o sistema de archivos
+stat NombreDelArchivo
+# Comando para crear un Enlace Duro
+ln NombreDelArchivo NombreDelEnlace
+# Comando para crear un Enlace Suave
+ln -s NombreDelArchivo NombreDelEnlace
+# Comando para el conteo de enlaces 
+ls -li
