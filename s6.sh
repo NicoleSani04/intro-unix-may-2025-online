@@ -9,6 +9,11 @@ sudo apt install iputils-ping
 bash /workspaces/intro-unix-may-2025-online/ping_with_arguments.sh 127.0.0.1
 # Pausa cualquier proceso que se esté ejecutando
 ctrl + c
-
 # Se muestran todas las variables de entorno del sistema operativo
 env
+# comando para crear un archivo (en caso de que no exista, si ya existe no lo crea) y escribir en el (Se sobreescribe)
+echo "chao" > test.txt
+# comando para escribir en un archivo sin sobreescribirse
+echo "chao chao" >> test.txt
+# Me muestra todo el contenito del archivo dentro de la terminal
+cat test.txt
