@@ -21,3 +21,5 @@ cat test.txt
 echo "$?"
 # Comando para que muestre el "detrás de escena" paso a paso de lo que ocurre dentro del código (Depurar)
 bash -x if_elif.sh "hola mundo"
+# Comando para convertirme en "root"
+sudo su
