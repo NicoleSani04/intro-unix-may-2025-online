@@ -17,3 +17,7 @@ echo "chao" > test.txt
 echo "chao chao" >> test.txt
 # Me muestra todo el contenito del archivo dentro de la terminal
 cat test.txt
+# Muestra el código de salida del último comando o script que se acaba de ejecutar
+echo "$?"
+# Comando para que muestre el "detrás de escena" paso a paso de lo que ocurre dentro del código (Depurar)
+bash -x if_elif.sh "hola mundo"
