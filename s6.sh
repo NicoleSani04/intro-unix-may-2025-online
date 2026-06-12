@@ -23,3 +23,5 @@ echo "$?"
 bash -x if_elif.sh "hola mundo"
 # Comando para convertirme en "root"
 sudo su
+# Utilizado para mostrar información detallada sobre el sistema operativo y el hardware de la máquina en la que se está trabajando
+uname -a
